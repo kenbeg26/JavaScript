@@ -83,8 +83,25 @@ console.log(` hello $("employee")`); // hello $("employee")
 
 console.log(` hello ${employee}`); // hello Ilya
 
+// Interaction: alert, prompt, confirm
+// alert
+//alert("Hello");
 
+//prompt
+//result = prompt(title, [default ]);
 
+//let age2 = prompt('How old are you?', 100);
+
+//alert(`You are ${age2} years old!`); // You are 100 years old!31
+
+// let test = prompt("Test", '');
+
+//let isBoss = confirm("Are you the boss?");
+//alert(isBoss); // true if OK is pressed
+
+let visitor = prompt('Your name:', "Visitor");
+
+alert(`Welcome ${visitor} to our page!`);
 
 
 
