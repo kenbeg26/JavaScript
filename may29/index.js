@@ -40,3 +40,23 @@ let minute = 30;
 if (hour == 12 && minute == 30) {
   console.log('The time is 12:30');
 }
+
+let userName = prompt("Who's there?", '');
+
+if (userName === 'Admin') {
+
+  let pass = prompt('Password?', '');
+
+  if (pass === 'TheMaster') {
+    alert('Welcome!');
+  } else if (pass === '' || pass === null) {
+    alert('Canceled');
+  } else {
+    alert('Wrong password');
+  }
+
+} else if (userName === '' || userName === null) {
+  alert('Canceled');
+} else {
+  alert("I don't know you");
+}
